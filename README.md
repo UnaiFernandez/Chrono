@@ -11,9 +11,12 @@
 
 The idea of this project is to create a wrist watch with an arduino board. At the begining the project will be done with the board and other modules. But the idea for a final result is to develop a personalized PCB with all the needed components.
 
-<p align="center"><img width=50% src="media/chrono_one.jpeg"></p>
+<p align="center"><img width=0% src="media/chrono_one.jpeg"></p>
 
 ## Chrono 1.1
+
+<p align="center"><img width=50% src="media/chrono_one.jpeg"></p>
+
 ### functionalities
 This first version fo chrono shows the time, the date and the day of the week printed on an LCD screen.
 ### materials
