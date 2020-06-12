@@ -11,4 +11,31 @@
 
 The idea of this project is to create a wrist watch with an arduino board. At the begining the project will be done with the board and other modules. But the idea for a final result is to develop a personalized PCB with all the needed components.
 
+<p align="center"><img width=0% src="media/chrono_one.jpeg"></p>
+
+## Chrono 1.1
+
 <p align="center"><img width=50% src="media/chrono_one.jpeg"></p>
+
+### functionalities
+This first version fo chrono shows the time, the date and the day of the week printed on an LCD screen.
+### materials
+The following list contains the materials to build the 'Chrono1.1'.
+
+- Arduino UNO
+- LCD + I2C module
+- DS1302 RTC module
+
+The two modules can be bought mounted. However the modules can be mounted by hand having all the needed materials. In that case the materials required will be the following.
+
+- Arduino UNO
+- HD4478D (LCD)
+- PCF8574 (I2C)
+- DS1302 (RTC)
+- 10kΩ resistor (x6)
+- 330Ω resistor
+- 32.768kHz oscillator
+- CR2032-BS-2-1 battery holder
+- 3V coin cell
+### schema
+<p align="center"><img width=80% src="media/chrono1_1_design.png"></p>
