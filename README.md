@@ -39,3 +39,28 @@ The two modules can be bought mounted. However the modules can be mounted by han
 - 3V coin cell
 ### schema
 <p align="center"><img width=80% src="media/chrono1_1_design.png"></p>
+
+
+## Chrono 1.2
+
+### functionalities
+The functionalities of this second version of Chrono 1 does not change. The only variation on the project is that the ATMEGA328P-PU is used separated instead of using the whole arduino board. This change will let us making a more personalized project.
+### materials
+The following list contains the materials to build the 'Chrono1.2'.
+
+- Arduino UNO
+- LCD + I2C module
+- DS1302 RTC module
+
+The two modules can be bought mounted. However the modules can be mounted by hand having all the needed materials. In that case the materials required will be the following.
+
+- Arduino UNO
+- HD4478D (LCD)
+- PCF8574 (I2C)
+- DS1302 (RTC)
+- 10kΩ resistor (x6)
+- 330Ω resistor
+- 32.768kHz oscillator
+- CR2032-BS-2-1 battery holder
+- 3V coin cell
+
