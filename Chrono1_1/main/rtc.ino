@@ -108,8 +108,8 @@ void printDate(const RtcDateTime& d)
     snprintf_P(datestring, 
             countof(datestring),
             PSTR("%02u/%02u/%04u"),
-            d.Month(),
             d.Day(),
+            d.Month(),
             d.Year() );
     lcd.print(datestring);
     Serial.print(datestring);
