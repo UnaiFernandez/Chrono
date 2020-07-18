@@ -20,13 +20,13 @@ void setupRtc ()
     
   //begin serial to print the output of the rtc
     Serial.begin(57600);
-  Serial.print("compiled: ");
+    Serial.print("compiled: ");
     Serial.print(__DATE__);
     Serial.println(__TIME__);
 
   //Begin the rtc
     Rtc.Begin();
-  RtcDateTime compiled = RtcDateTime(__DATE__, __TIME__);
+    RtcDateTime compiled = RtcDateTime(__DATE__, __TIME__);
     printDateTime(compiled);
     Serial.println();
 

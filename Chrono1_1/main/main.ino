@@ -10,6 +10,8 @@
 //		-VCC --> 5v
 //		-SDA --> A4
 //		-SCL --> A5
+//BUTTONS
+//
 
 #include <ThreeWire.h>  
 #include <RtcDS1302.h>
