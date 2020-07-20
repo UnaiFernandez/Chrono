@@ -31,7 +31,19 @@ void setup ()
 	setupRtc();
 }
 
+boolean crono = false;
+boolean stop = false;
 void loop () 
 { 
-  loopRtc();
+  if(digitalRead(2) == LOW)
+    loopRtc();
+  if(digitalRead(2) == HIGH){
+    digitalWrite(13, HIGH);
+    //if(crono = false){
+      stop = false;
+      loopSW();
+    //}else{
+      //crono = false;
+    //}
+  }
 }
