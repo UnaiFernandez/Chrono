@@ -26,6 +26,11 @@ LiquidCrystal_I2C lcd (0x27, 2, 1, 0, 4, 5, 6, 7);
 ThreeWire myWire(7,6,8);
 RtcDS1302<ThreeWire> Rtc(myWire);
 
+//chrono variables
+int mili = 0;
+int sec = 0;
+int m = 0;
+int hr = 0;
 void setup () 
 {   
 	setupRtc();
