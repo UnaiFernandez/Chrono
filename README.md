@@ -49,3 +49,5 @@ The two modules can be bought mounted. However the modules can be mounted by han
 This second version of Chrono, apart from showing us the time we'll be able to time ourselves with the new stopwatch
 ### functionalities
 The stopwatch is the new feature in this version of the project, after clicking a button a stopwatch menu will pop in.
+### schema
+<p align="center"><img width=80% src="media/chrono1_2_design.png"></p>
