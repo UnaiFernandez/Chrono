@@ -46,7 +46,9 @@ void loop ()
     digitalWrite(13, HIGH);
     //if(crono = false){
       stop = false;
-      loopSW();
+      setupSW();
+      if(digitalRead(9) == HIGH && digitalRead(2) == HIGH)
+        loopSW();
     //}else{
       //crono = false;
     //}
